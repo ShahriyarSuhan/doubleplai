@@ -13,9 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Double PLAi",
-  description: "AI-Powered Baseball Recruiting Platform",
-};
+  title: 'Double PLAi | The Future of Baseball Recruiting',
+  description: 'AI-powered living player profiles.',
+  icons: {
+    icon: '/logo.png', // Path to your icon in the app or public folder
+    apple: '/logo.png', // Optional: for iPhone home screens
+  },
+}
 
 export default function RootLayout({
   children,

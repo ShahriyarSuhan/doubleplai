@@ -78,7 +78,7 @@ export default function LandingPage() {
             </h1>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 font-medium">
               Living player profiles that update with every game. <br />
-              Stats, clips, and AI scouting notes—synced in real-time.
+              Stats, clips, and AI scouting notes synced in real-time.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a href="#join" className="group bg-white text-black px-8 py-4 rounded-xl font-black uppercase italic flex items-center justify-center gap-2 hover:bg-cyan-400 transition-all duration-300">
@@ -157,10 +157,7 @@ export default function LandingPage() {
             src="/gunnar-card.png" 
             className="w-full h-auto rounded-2xl shadow-2xl relative z-10"
           />
-          <div className="absolute -bottom-4 -left-4 z-20 bg-black border border-white/20 p-4 rounded-2xl">
-            <p className="text-[10px] font-black text-gray-500 uppercase">Class Rank</p>
-            <p className="text-xl font-black italic text-cyan-400">#12 OF</p>
-          </div>
+          
         </div>
 
         {/* Vital Info Bar */}
@@ -262,8 +259,8 @@ export default function LandingPage() {
               </tr>
             </thead>
             <tbody className="text-xs font-bold divide-y divide-white/5">
-              <LogEntry date="APR 29" opp="Harrison Hoyas" res="W 5-2" stats="1-2, 2B, 1 RBI" />
-              <LogEntry date="APR 23" opp="Peachtree Lions" res="L 1-4" stats="0-3, 1 BB" />
+              <LogEntry date="APR 29" opp="Harrison Hoyas" res="W 5-2" stats="1-2, 2 BB, 1 RBI" />
+              <LogEntry date="APR 23" opp="Peachtree Ridge lions" res="L 1-4" stats="0-3, 1 BB" />
               <LogEntry date="APR 16" opp="Forsyth Central" res="W 8-0" stats="0-2, 1 BB, 1 R" />
             </tbody>
           </table>
