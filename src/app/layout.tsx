@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Double PLAi | The Future of Baseball Recruiting',
+  title: 'StatPlex | The Future of Baseball Recruiting',
   description: 'AI-powered living player profiles.',
   icons: {
     icon: '/logo.png', // Path to your icon in the app or public folder
