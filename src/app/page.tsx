@@ -318,7 +318,7 @@ export default function LandingPage() {
           <Image src="/logo.png" alt="Double PLAi" fill className="object-contain" />
         </div>
         <p className="text-gray-700 text-[10px] font-black uppercase tracking-[0.5em]">
-          &copy; 2026 DOUBLE PLAi // ALL RIGHTS RESERVED
+          &copy; 2026 StatPlex // ALL RIGHTS RESERVED
         </p>
       </footer>
     </div>

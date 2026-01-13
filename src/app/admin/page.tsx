@@ -109,7 +109,7 @@ export default function AdminDashboard() {
         <div className="bg-[#111] border border-white/10 p-10 rounded-[2.5rem] text-center max-w-sm w-full shadow-2xl">
           <div className="w-16 h-16 bg-cyan-500 rounded-2xl mx-auto mb-6 flex items-center justify-center font-black italic text-black text-xl">DP</div>
           <h1 className="text-2xl font-black italic uppercase text-white mb-2">Admin Access</h1>
-          <p className="text-gray-500 text-sm mb-8 font-medium italic">Double PLAi Waitlist Management</p>
+          <p className="text-gray-500 text-sm mb-8 font-medium italic">StatPlex PLAi Waitlist Management</p>
           <button 
             onClick={() => signInWithPopup(auth, new GoogleAuthProvider())}
             className="w-full bg-white text-black py-4 rounded-xl font-black uppercase italic hover:bg-cyan-400 transition"
